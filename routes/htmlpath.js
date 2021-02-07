@@ -3,6 +3,7 @@ var express = require ('express');
 var fs = require ('fs');
 var app = express();
 
+//connect to the html pages 
 module.exports = function (app,fs){
 
     app.get ('/', function (req,res){

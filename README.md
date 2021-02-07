@@ -11,6 +11,7 @@ To use this application, simply load the page and click "get started" You will b
 Heroku Live Link:
 
 
-![alt text]
-![alt text]
-![alt text]
+![alt text](public/photos/1.png)
+![alt text](public/photos/2.png)
+![alt text](public/photos/3.png)
+![alt text](public/photos/4.png)

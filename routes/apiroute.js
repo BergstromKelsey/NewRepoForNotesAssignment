@@ -1,6 +1,6 @@
 var path = require("path");
 
-
+//require and connect to the ds.json file
 module.exports = function (app,fs){
 const db=require('/Users/kelseybergstrom/Desktop/Class Activites/11-express/NewRepoForNotesAssignment/db/db.json');
 
@@ -12,7 +12,7 @@ app.get('/api/notes', function(req,res){
 
 });
 
-
+//post notes to the body of the application
 app.post('/api/notes', function(req,res){
     let notenote= req.body;
     let id=1;
@@ -34,6 +34,7 @@ app.post('/api/notes', function(req,res){
     res.json(notenote);
 });
 
+//delete notes at users request 
 app.delete ('/api/notes/:id', function(req,res){
 let dbFile = path.join(__dirname,'/Users/kelseybergstrom/Desktop/Class Activites/11-express/NewRepoForNotesAssignment/db/db.json')
 for (let i=0; i <db.length; i++){
