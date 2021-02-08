@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "This Note Taker application was made for users to input and save notes as reminders throughout the day. The user should be able to input a note Title of their choice, and then input note content of their choice. When the user is done, the save button will appear in the corner, which the user can click to append their saved notes on the side of the page.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BergstromKelsey/NewRepoForNotesAssignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BergstromKelsey/NewRepoForNotesAssignment/issues"
+  },
+  "homepage": "https://github.com/BergstromKelsey/NewRepoForNotesAssignment#readme"
 }
