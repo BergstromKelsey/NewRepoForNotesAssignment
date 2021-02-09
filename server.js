@@ -14,6 +14,11 @@ require('./routes/apiroute.js')(app,fs);
 require('./routes/htmlpath.js')(app,fs);
 
 
+
+
+
+
+
 //connect to a localhost port for testing
 app.listen(PORT,function(){
 console.log("app is listening on Port" +PORT)
